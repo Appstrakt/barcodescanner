@@ -27,11 +27,11 @@ public class CameraUtils {
         }
 
         try {
-            if (front != -1) {
-                c = Camera.open(front);
-            }
-            if (c == null && back != -1) {
+            if (back != -1) {
                 c = Camera.open(back);
+            }
+            if (c == null && front != -1) {
+                c = Camera.open(front);
             }
         }
         catch (Exception e){
