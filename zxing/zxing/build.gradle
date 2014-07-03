@@ -15,10 +15,10 @@ dependencies {
 
 android {
     defaultConfig {
-        packageName "me.dm7.barcodescanner.zxing"
+        applicationId "me.dm7.barcodescanner.zxing"
     }
     compileSdkVersion 19
-    buildToolsVersion '19.0.1'
+    buildToolsVersion '19.1.0'
 
     android {
         lintOptions {
