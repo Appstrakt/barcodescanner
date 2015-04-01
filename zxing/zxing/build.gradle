@@ -15,7 +15,6 @@ dependencies {
 
 android {
     defaultConfig {
-        applicationId "me.dm7.barcodescanner.zxing"
     }
     compileSdkVersion 19
     buildToolsVersion '19.1.0'
